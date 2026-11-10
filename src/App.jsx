@@ -1,12 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from './components/navbar'
+import Footer from './components/footer'
 import ProtectedRoute from './components/protectedRoute'
 
 import Home from './pages/home'
 import Login from './pages/login'
 import Register from './pages/register'
-import PageNotFound from './pages/PageNotFound'
+import PageNotFound from './pages/pageNotFound'
 
 import NewcomerDashboard from './newcomer/pages/dashboard'
 import Directory from './newcomer/pages/directory'

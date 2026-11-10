@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button } from 'flowbite-react'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import AvailabilityEditor from '../components/availabilityEditor'
 
 const initialAvailability = {
