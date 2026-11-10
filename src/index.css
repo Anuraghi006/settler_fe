@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+/* Use the "dark" class on <html> to switch to dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom accent color, used as bg-brand-600, text-brand-400, etc. */
+@theme {
+  --color-brand-400: #818cf8;
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+  --color-brand-700: #4338ca;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
