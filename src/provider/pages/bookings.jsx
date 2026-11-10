@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import BookingRequestCard from '../components/bookingRequestCard'
 
 const initialBookings = [

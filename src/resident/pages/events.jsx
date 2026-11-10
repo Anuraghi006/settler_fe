@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button, Card, Label, Textarea, TextInput } from 'flowbite-react'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import EventCard from '../components/eventCard'
 
 const initialEvents = [

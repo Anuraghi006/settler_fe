@@ -1,8 +1,7 @@
 import { Badge, Card } from 'flowbite-react'
 import { LuCalendarCheck, LuClipboardList, LuShieldCheck, LuStar } from 'react-icons/lu'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import StatCard from '../../components/StatCard'
-
 const upcoming = [
   { id: 1, service: 'Pipe leak repair', customer: 'Anita', time: 'Today, 3:00 PM' },
   { id: 2, service: 'Ceiling fan installation', customer: 'Rahul', time: 'Tomorrow, 10:00 AM' },
