@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Badge, Button } from 'flowbite-react'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import QuestionCard from '../../components/questionCard'
-import AnswerForm from '../components/answerform'
+import AnswerForm from '../components/answerForm'
 
 const initialQuestions = [
   { id: 1, title: 'Which bus goes from the station to Lake Avenue?', body: '', category: 'Transport', author: 'Anita', answers: 2, time: '2 hours ago' },

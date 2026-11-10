@@ -1,6 +1,6 @@
 import { Card } from 'flowbite-react'
 import { LuFlame, LuMessageCircle, LuSparkles, LuUsers } from 'react-icons/lu'
-import PageHeader from '../../components/PageHeader'
+import PageHeader from '../../components/pageHeader'
 import StatCard from '../../components/StatCard'
 import Leaderboard from '../components/leaderboard'
 
